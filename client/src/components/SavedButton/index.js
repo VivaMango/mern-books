@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 
 function SavedButton() {
     return (
-        <button type="button" class="btn btn-primary">SavedButton</button>
+        <button type="button" className="btn btn-primary">SavedButton</button>
     )
 };
 

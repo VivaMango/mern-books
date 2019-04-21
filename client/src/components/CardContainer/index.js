@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
+import ResultCard from "../ResultCard";
 
 function CardContainer() {
     return (
-        <div class="container-fluid">
-            <h1>CardContainer</h1>
-        </div>
+        <ResultCard/>
     )
 };
 

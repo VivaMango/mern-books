@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
+import JumboHeader from "../../components/JumboHeader";
 
 function NotFound() {
     return (
-        <h1>NotFound</h1>
+        <JumboHeader pageName={"Not Found"} />
     )
 };
 
