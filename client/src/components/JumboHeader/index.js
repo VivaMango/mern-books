@@ -1,0 +1,14 @@
+import React, { Component } from "react";
+import SearchForm from "../SearchForm"
+import SavedButton from "../SavedButton"
+
+function JumboHeader(props) {
+    return (
+        <div className="jumbotron">
+            <h1 className="display-4">{props.pageName} Google Books API</h1>
+            {props.pageName === "Search" ? <SearchForm/> : <SavedButton/>}
+        </div>
+    )
+};
+
+export default JumboHeader;
