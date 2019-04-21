@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
@@ -5,7 +6,7 @@ const app = express();
 const db = require("./models/Book.js");
 const mongoose = require("mongoose");
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mernbooks";
-require('dotenv').config()
+
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
